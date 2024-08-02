@@ -1,9 +1,5 @@
 html,body{
-    background: url(../img/bg.avif);
-    /* background: #000; */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: #EC7809;
     object-fit: cover;
     font-family:cursive;
 }
