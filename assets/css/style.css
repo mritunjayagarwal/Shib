@@ -1,0 +1,154 @@
+html,body{
+    background: url(../img/bg.avif);
+    /* background: #000; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-family:cursive;
+}
+
+#bg 
+{	
+	position:fixed;
+	background: cover;
+  background: linear-gradient(145deg, #181818 50%, #121212 115%);
+  width: auto;
+  height: auto;
+	margin: 0;
+  padding: 0;
+  z-index: -2;
+}
+
+.navbar li a{
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar li a:hover{
+    color: #EC7809;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color: #000;
+}
+
+.navbar-brand:hover{
+    color: #FFD62B
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    padding-top: 100px;
+}
+
+.img-am{
+    width: 80px; height: 80px;
+  }
+
+  .img-am{
+    width: 80px; height: 80px;
+  }
+
+  h2{
+      font-size: 18px;
+  }
+
+h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.toke{
+    font-size: 20px;
+    color: #fff;
+}
+
+.highlight{
+    color: #FFD62B !important;
+    /* font-size: 80px; */
+}
+
+.active{
+    color: #EC7809 !important;
+}
+
+.active:hover{
+    color: #fff !important;
+}
+
+.box1{
+    margin-left: 150px;
+    padding: 150px 60px 80px 60px;
+    margin-top: 280px;
+    background: rgba(255, 255, 255, .1);
+    /* clip-path: polygon(0% 0%, 100% 0, 100% 71%, 75% 100%, 0% 100%); */
+}
+
+.box1 h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.box1 p {
+    font-size: 50px;
+}
+
+.dollar{
+    color: #808080;
+    font-size: 20px;
+}
+
+.logo-temp, .stage-temp{
+    display: none;
+}
+
+@media only screen and (max-width: 667px) {
+
+    .container{
+        max-width: unset;
+    }
+
+    .nav-item{
+        margin: 10px 0 !important;
+    }  
+
+    .btn-link{
+        margin-left: -15px;
+    }
+
+    .uni-btn{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 55px !important;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .text-black{
+        font-size: 13px;
+    }
+
+    .logo-temp, .stage-temp{
+        display: block;
+    }
+
+    .logo-main, .stage-main{
+        display: none;
+    }
+  }
